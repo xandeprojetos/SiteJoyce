@@ -139,7 +139,7 @@ html{
       
     }
         
-    .botao{
+  .botao{
         width: 100px;
         height: 100px;               
         position: absolute;             /* div do botao saiba mais*/
@@ -148,67 +148,67 @@ html{
         
     }
 
-    .botao button{
-        text-transform: uppercase;
-        width: 200px;
-        height: 50px;             /*  Design/Tamanho do botão*/
-        letter-spacing: 0.1rem;             
-        background: -webkit-linear-gradient(to right, #2F4F4F, #6a3093);
-        background: linear-gradient(to left, #2F4F4F, black);
-        color: whitesmoke;
-        font-size: 20px;
-        font-family: var(--font-primary);
-        letter-spacing: 0.2rem;
-        border-radius: 20px;
-        border: none;
-        cursor: pointer;
+  .botao button{
+      text-transform: uppercase;
+      width: 200px;
+      height: 50px;             
+      letter-spacing: 0.1rem;             
+      background: -webkit-linear-gradient(to right, #2F4F4F, #6a3093);
+      background: linear-gradient(to left, #2F4F4F, black);
+      color: whitesmoke;
+      font-size: 20px;
+      font-family: var(--font-primary);
+      letter-spacing: 0.2rem;
+      border-radius: 20px;
+      border: none;
+      cursor: pointer;
     }
 
-    .botao button:hover{
-        background: rgba(0, 0, 0, 0);      /* Animação do botão*/
-        color: #2F4F4F ;
-        border: solid 2px #2F4F4F;
+  .botao button:hover{
+    background: rgba(0, 0, 0, 0);      /* Animação do botão*/
+    color: #2F4F4F ;
+     border: solid 2px #2F4F4F;
     }
 
-    .sidebar {
-        width: 20rem;
-        height: 100vh;
-        background-color: #2F4F4F;
-        opacity: 0.5;
-        position: fixed;
-        top: 0;
-        right: -20rem;
-        transition: all 1s;
-        z-index: 80;
-      }
+  .sidebar {
+    width: 20rem;
+    height: 100vh;
+    background-color: #2F4F4F;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    right: -20rem;
+    transition: all 1s;
+    z-index: 80;
+  }
       
-      .show-menu .sidebar {
-        right: 0;
-      }
+  .show-menu .sidebar {
+    right: 0;
+  }
       
-      .menu {
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
+  .menu {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
       
-      .menu-item {
-        text-align: center;
-        margin-bottom: 2rem;
-      }
+  .menu-item {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
       
-      .menu-link {
-        font-family: var(--font-primary);
-        font-size: 2rem;
-        color: white;
-        transition: color 0.4s;
-      }
+  .menu-link {
+    font-family: var(--font-primary);
+    font-size: 2rem;
+    color: white;
+    transition: color 0.4s;
+  }
 
-      .menu-link:hover{
-          color: black;
+  .menu-link:hover{
+    color: black;
           
-      }
+    }
                        /* especilidades */
       .sessao-header{
         display: flex;
@@ -241,7 +241,7 @@ html{
       
       .especialidade:nth-child(3) {
         grid-column: 12 / 15;
-        grid-row: 3 / 5;
+        grid-row: 3 / 10;
       }
       
       
@@ -265,7 +265,7 @@ html{
         font-family: var(--font-joyce);
         font-size: 2rem;
         color: #2F4F4F;
-        border-bottom: solid 2px #2F4F4F;
+        text-decoration: underline 2px; 
         margin-bottom: 0.7rem;
       }
       
@@ -292,25 +292,27 @@ html{
       }
     
       .especialidades-img-wrapper{
-        grid-column: 5 / 12;
-        grid-row: 5 / 5;
+        grid-column: 5 / 11;
+        grid-row: 5 / 6;
+        
       }
 
     /* inicio da sessão contato */
 
     .sessao-contato{
-      height: 100%;
       width: 100%;
+      height: 50vh;
       background-color: white;
       overflow: hidden;
       position: absolute;
+      
       
     }
 
     .header-contato{
       text-align: center;
-
-     
+      
+      
     }
 
     .header-contato h1{
@@ -320,21 +322,35 @@ html{
       text-align: center; 
       position: absolute;
       top: 5%;
-      left: 44%;
+      left: 46%;
       border-bottom: 1px black;
+      text-decoration: underline 4px; 
+    }
+
+    .botoes-contato{
+      position: absolute;
+    }
+   
+    
+
+    .img-contato{
+      width: 100%;
+      height: 100%;
       
     }
 
-  .img-contato{
-    width: 100%;
-    height: 100%;
-  }
+    .img-contato img{
+      width: 100%;
+      height: 100%;
+      opacity: 0.2;
 
-  .img-contato img{
-    width: 100%;
-    opacity: 0.2;
+    }
 
-  }
+    
+    
+
+    
+   
 
   
 
