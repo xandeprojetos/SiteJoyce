@@ -1,0 +1,95 @@
+            /* especilidades */
+      .sessao-header h3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .sessao-header h1{
+        font-family: var(--font-bebas);
+        align-items: center;
+      }
+
+      .especialidades{
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(16, 1fr);
+        grid-template-rows: repeat(6, 6rem);
+        row-gap: 0.5rem;
+        
+
+      }
+
+      .especialidade-text {
+        font-family: var(--font-joyce);
+        margin-top: 2rem;
+        
+      }
+
+      .especialidade:nth-child(1) {
+        grid-column: 3 / 6;
+        grid-row: 3 / 5;
+      }
+      
+      .especialidade:nth-child(2) {
+        grid-column: 7 / 11;
+        grid-row: 5 / 2;
+      }
+      
+      .especialidade:nth-child(3) {
+        grid-column: 12 / 15;
+        grid-row: 3 / 10;
+      }
+      
+      
+      
+      .sessao-especialidades{
+        width: 100%;            /* Definindo o tamanho da primeira tela*/
+        height: 100vh;
+        overflow: hidden;
+        background-color: white;
+        
+      }
+      
+      .sessao-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+      }
+      
+      .sessao-header h1 {
+        font-family: var(--font-joyce);
+        font-size: 2rem;
+        color: #2F4F4F;
+        text-decoration: underline 2px; 
+        margin-bottom: 0.7rem;
+      }
+      
+      .especialidade-header {
+        display: flex;
+        align-items: center;
+        color: #4b4b4b;
+       
+        
+      }
+      
+      
+      .especialidade-header h3 {
+        font-family: var(--font-joyce);
+        font-size: 2rem;
+        padding-left: 1rem;
+      }
+      
+      .especialidade-text {
+        font-family: var(--font-joyce);
+        margin-top: 1rem;
+        margin-top: 10px;
+        
+      }
+    
+      .especialidades-img-wrapper{
+        grid-column: 5 / 11;
+        grid-row: 5 / 6;
+        
+      }
